@@ -1,0 +1,91 @@
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.3;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.027rem;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 1.802rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.266rem;
+    font-weight: bold;
+}
+
+/* Header */
+header {
+    padding: 1rem 0;
+}
+
+.logo-nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    margin: 0;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0 auto; 
+}
+
+header a {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+/* Hero */
+
+/* Intro */
+
+/* History */
+#history {
+    background-color: #f8fafc;
+}
+
+/* Testimonials */
+#testimonials {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Flavours */
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding: 0.5rem;
+}
+
