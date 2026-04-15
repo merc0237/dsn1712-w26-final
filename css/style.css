@@ -73,8 +73,11 @@ header a {
     display: grid;
 }
 
+.hero-intro
+
 /* Intro */
 #intro {
+    display: grid;
     padding: 1.5rem;
 }
 .call-out {
@@ -133,9 +136,25 @@ header a {
 
 /* Flavours */
 #flavours {
-    display: flex;
+    display: grid;
     padding: 1.5rem;
 }
+
+.flavours-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+    justify-content: space-evenly;
+}
+
+.flavours-list h3 {
+    text-align: center;
+}
+
+.flavours-list p {
+    text-align: center;
+}
+
 
 /* Footer */
 footer {
@@ -162,11 +181,36 @@ footer {
 .quotes {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
-
+}
 }
 
-}
+
+
 
 @media (min-width: 960px){
+.hero {
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+}
+
+.product-one {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.product-two {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.product-three {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.product-four {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
 
 }
