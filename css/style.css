@@ -63,7 +63,7 @@ nav ul li {
   gap: 1.5rem;
   list-style: none;
   margin: 0 auto;
-  padding: 0 auto; 
+  padding: 0; 
 }
 
 .nav-links a:link,
